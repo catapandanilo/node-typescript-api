@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npm run build && node dist/src/index.js",
+    "start": "npm run build && node dist/src/",
+    "start:dev": "ts-node-dev src/",
     "lint": "eslint ./src ./__test__ --ext .ts",
     "lint:fix": "eslint ./src ./__test__ --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^3.8.0",
     "@typescript-eslint/parser": "^3.8.0",
     "eslint": "^7.6.0",
+    "ts-node-dev": "^1.0.0-pre.56",
     "typescript": "^3.9.7"
   },
   "dependencies": {
