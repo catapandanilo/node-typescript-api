@@ -12,5 +12,9 @@
     "api"
   ],
   "author": "Danilo Rodrigues Catapan <dcatapan@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  }
 }
