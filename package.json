@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "npm run build && node dist/src/",
     "start:dev": "ts-node-dev src/",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "jest",
     "test:functional": "jest --projects ./test --forceExit --runInBand",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
